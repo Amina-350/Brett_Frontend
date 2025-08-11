@@ -2,8 +2,7 @@
 import React from 'react'
 import Image from 'next/image';
 import { Koulen } from "next/font/google";
-import headerimg from '../../public/assets/Baclground 1 back 2.png'
-import { Button, Col, Container, Row } from 'reactstrap';
+import {Col, Container, Row } from 'reactstrap';
 import HeaderCalboard from './HeaderCalboard';
 import aliandance from '../../public/assets/alien5.svg';
 import alian4 from '../../public/assets/alien8.png';

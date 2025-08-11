@@ -1,17 +1,12 @@
 import React from "react";
 import "./style.css";
-import { Koulen, Nunito } from "next/font/google";
+import { Koulen} from "next/font/google";
 import Image from "next/image";
 import calculator from "../../public/assets/Calculator.png";
 import ProgressBar from "./ProgressBar";
-import { Col, Container, Row } from "reactstrap";
+import {Container} from "reactstrap";
 import ads6 from '../../public/assets/Ads─▒z_Resim 6.png';
 import alian4 from '../../public/assets/alien4 1.png';
-
-const NunitoFont = Nunito({
-  subsets: ["latin"],
-  weight: "400",
-});
 const koulenFont = Koulen({
   subsets: ["latin"],
   weight: "400",

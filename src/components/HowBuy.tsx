@@ -2,7 +2,7 @@
 import React from "react";
 import Image from "next/image";
 import { Koulen } from "next/font/google";
-import { Button, Col, Container, Row } from "reactstrap";
+import {Col, Container, Row } from "reactstrap";
 import howbuy from "../../public/assets/How to buy.png";
 import dancealian from '../../public/assets/alien-dance3 (1).png'
 import "./style.css";
@@ -43,7 +43,7 @@ export default function HowBuy() {
                       <span className="text-white text-[13px]">
                         Connect your crypto wallet (we recommend MetaMask). This
                         is your gateway to the Layer Brett ecosystem. Make sure
-                        your wallet is loaded with ETH, USDT, or you can use
+                        your wallet is loaded with ETH USDT or you can use
                         Fiat Card Payment to participate.
                       </span>
                     </div>
@@ -74,7 +74,7 @@ export default function HowBuy() {
                         Buy / Buy & Stake
                       </p>
                       <span className="text-white text-[13px]">
-                    Press "Buy & Stake" or "Buy Now" depending on if you wish to stake or not. Confirm the transaction in your wallet once the pop-up appears. Remember to have enough in your wallet for gas fees.
+                    Press Buy & Stake or Buy Now depending on if you wish to stake or not. Confirm the transaction in your wallet once the pop-up appears. Remember to have enough in your wallet for gas fees.
                       </span>
                     </div>
                   </div>

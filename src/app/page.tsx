@@ -9,7 +9,6 @@ import HowBuy from "@/components/HowBuy";
 import PrecelBounces from "@/components/PrecelBounces";
 import Roadmap from "@/components/Roadmap";
 import TokenNomic from "@/components/TokenNomic";
-import Image from "next/image";
 
 export default function Home() {
   return (

@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import {  Geist, Geist_Mono, Koulen, Nunito  } from "next/font/google";
+import {  Geist, Geist_Mono, Koulen  } from "next/font/google";
 import "./globals.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 const geistSans = Geist({

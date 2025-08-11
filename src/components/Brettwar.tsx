@@ -9,7 +9,6 @@ import ad7 from '../../public/assets/Ads─▒z_Resim 7.png';
 import subtract from '../../public/assets/Subtract.png';
 import one from '../../public/assets/1 (1).png';
 import { Container } from 'reactstrap';
-import vector1 from "../../public/assets/Vector (1).png";
 import union from '../../public/assets/Union.png';
 import ractangle from '../../public/assets/Rectangle 5474.png';
 import rectangle2 from '../../public/assets/Rectangle 5472 (2).png';

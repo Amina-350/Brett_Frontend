@@ -1,5 +1,4 @@
 import React from "react";
-import feacturedbackground from "../../public/assets/Baclground 2 1.png";
 import Image from "next/image";
 import Featured from "./Featured";
 import "./style.css";

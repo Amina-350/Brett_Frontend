@@ -61,7 +61,7 @@ export default function Roadmap() {
 
                   <p>Achieve 50,000+ members across socials</p>
 
-                  <p>Claim Layer Brett's spot in the spotlight.</p>
+                  <p>Claim Layer Bretts spot in the spotlight.</p>
 
                   <p>
                     Finalize all preparations for token allocation and ecosystem
@@ -90,7 +90,7 @@ export default function Roadmap() {
 
                   <p>Achieve 50,000+ members across socials</p>
 
-                  <p>Claim Layer Brett's spot in the spotlight.</p>
+                  <p>Claim Layer Bretts spot in the spotlight.</p>
 
                   <p>
                     Finalize all preparations for token allocation and ecosystem

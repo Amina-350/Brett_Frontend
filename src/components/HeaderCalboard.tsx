@@ -5,7 +5,7 @@ import { Koulen } from "next/font/google";
 import Image from "next/image"; // Import Image from next/image
 import avatarimg from "../../public/assets/Mask group.png";
 import ProgressBar from "./ProgressBar";
-import { Button, Col, Container, Input, Row } from "reactstrap";
+import {Col, Container, Row } from "reactstrap";
 import Dropdownfun from "./Dropdown";
 import imgvector from "../../public/assets/Vector.png";
 import vector1 from "../../public/assets/Vector (1).png";

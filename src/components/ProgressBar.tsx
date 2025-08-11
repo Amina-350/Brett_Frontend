@@ -43,7 +43,7 @@ export default function ProgressBar() {
         <div
           className="absolute cursor-pointer bg-[#ef53c0] z-30 rounded-full top-[-3px]"
           style={{ left: `calc(${progress}% - 20px)` }}
-          onMouseDown={(e) => {
+          onMouseDown={() => {
             const onMouseMove = (eMove: MouseEvent) => handleDrag(eMove as any);
             const onMouseUp = () => {
               window.removeEventListener("mousemove", onMouseMove);
