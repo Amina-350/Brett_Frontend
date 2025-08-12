@@ -16,16 +16,16 @@ const koulenFont = Koulen({
 export default function PrecelBounces() {
   return (
     <div
-      className={`${koulenFont.className} main-precel-bounces pt-[60vh] pb-[45vh]`}
+      className={`${koulenFont.className} main-precel-bounces pt-[10vh] pb-[10vh] relative`}
     >
-      <div className="sub-precel-bounces relative z-10">
         <Image
           src={precelbounce}
           alt=""
-          className="w-[20vw] h-[27vh] absolute top-[-170px] left-[34vw]"
+          className="w-[20vw] mt-[180px] ml-[30vw] parcel-bounce-name"
         />
-        <div className="main-precel-section w-[55vw] mt-[80px] ml-[8vw] h-[300px] relative z-10">
-          <div className="precel-bounce-section flex justify-center items-center gap-4 pl-[70px]">
+      <div className="sub-precel-bounces flex ">
+        <div className="main-precel-section w-[50vw] mt-[8px] ml-[8vw] h-[300px] relative z-10">
+          <div className="precel-bounce-section1 hello-parcel flex justify-center items-center gap-4 pl-[70px]">
             <div className="build-on-etherem flex justify-center item-center gap-3 bg-[#0487AB] border-[4px] border-[#003E58] shadow-[-8px_8px_0_#003e58] rounded p-[13px]">
               <div className="img-sec-div p-2 bg-[#FFB3E8] h-[40px] w-[75px] border-[2px] border-[#EF53C0C0] rounded flex justify-center items-center shadow-[-6px_4px_0_#003e58]">
                 <Image
@@ -60,9 +60,9 @@ export default function PrecelBounces() {
             </div>
           </div>
           <br></br>
-          <div className="precel-bounce-section flex justify-center items-center gap-4 mr-[60px]">
+          <div className="precel-bounce-section hello-parcel flex justify-center items-center gap-4 mr-[60px]">
             <div className="build-on-etherem flex justify-center item-center gap-3 bg-[#0487AB] border-[4px] border-[#003E58] shadow-[-8px_8px_0_#003e58] rounded p-[13px]">
-              <div className="img-sec-div p-2 bg-[#FFB3E8] w-[40px] w-[75px] border-[2px] border-[#EF53C0C0] rounded flex justify-center items-center shadow-[-6px_4px_0_#003e58]">
+              <div className="img-sec-div p-2 bg-[#FFB3E8] h-[40px] w-[75px] border-[2px] border-[#EF53C0C0] rounded flex justify-center items-center shadow-[-6px_4px_0_#003e58]">
                 <Image
                   src={grouppic}
                   alt="img-1"
@@ -77,7 +77,7 @@ export default function PrecelBounces() {
                 </p>
               </div>
             </div>
-            <div className="build-on-etherem flex justify-center item-center gap-3 bg-[#0487AB] border-[4px] border-[#003E58] shadow-[-8px_8px_0_#003e58] rounded p-[13px]">
+            <div className="build-on-etherem1 flex justify-center item-center gap-3 bg-[#0487AB] border-[4px] border-[#003E58] shadow-[-8px_8px_0_#003e58] rounded p-[13px]">
               <div className="img-sec-div p-2 bg-[#FFB3E8] h-[40px] w-[75px] border-[2px] border-[#EF53C0C0] rounded flex justify-center items-center shadow-[-6px_4px_0_#003e58]">
                 <Image
                   src={grouppic}
@@ -99,10 +99,13 @@ export default function PrecelBounces() {
             staking and unstoppable vibes.
           </h6>
         </div>
-        <p className="bg-[#FFFFFF] border-[2px] border-[#bfbfbf] p-2 rounded w-[160px] leading-none text-[14px] absolute left-[67vw] top-[3vh]">Early adopters of $LBRETT enjoy exclusive staking bonuses.</p>
-        <Image src={adcartoon} alt="adcartoon" className="absolute left-[63vw] top-[3vh] w-[30vw] h-[90vh] z-0"/>
-          <Image src={yoda} alt="yoda" className="absolute left-[43vw] top-[37vh] w-[20vw] h-[50vh] z-0"/>
-             <Image src={aliandance3} alt="yoda" className="absolute left-[3vw] top-[48vh] w-[10vw] h-[50vh] z-0"/>
+        <div className="sub-parcel-div">
+        <p className="bg-[#FFFFFF] border-[2px] border-[#bfbfbf] ml-[11vw] mt-[190px] p-2 rounded w-[160px] leading-none text-[14px] early-adopt z-0">Early adopters of $LBRETT enjoy exclusive staking bonuses.</p>
+        
+        <Image src={adcartoon} alt="adcartoon" className="w-[25vw] h-[75vh] ml-[12vw] mt-[-60px]"/>
+          <Image src={yoda} alt="yoda" className="w-[16vw] h-[40vh] mt-[-200px]"/>
+      </div>
+             <Image src={aliandance3} alt="yoda" className="w-[10vw] h-[50vh] z-0 absolute bottom-[0vh] alien3"/>
       </div>
     </div>
   );

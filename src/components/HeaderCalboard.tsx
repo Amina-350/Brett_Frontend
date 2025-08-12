@@ -21,7 +21,7 @@ const koulenFont = Koulen({
 export default function HeaderCalboard() {
   return (
     <div
-      className={`headercal bg-[#0487ab] pt-4 pl-5 pr-5 pb-2 border-[4px] border-[#003e58] rounded ${koulenFont.className}`}
+      className={`headercal bg-[#0487ab] pt-4 pl-5 pr-5 pb-2 border-[4px] border-[#003e58] rounded ${koulenFont.className} `}
     >
       <div className="subheadercal bg-[#003e58] rounded pt-3 pb-2 pl-1 pr-3">
         <div className="bg-[#376c8a] pt-[6px] pl-[20px] pr-[20px] pb-[6px]">

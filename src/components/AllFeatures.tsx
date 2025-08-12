@@ -23,7 +23,7 @@ export default function AllFeatures() {
     <div className={`${koulenFont.className} all-feature-section`}>
         <Image src={tfighter} alt="tfighter" className='absolute h-[20vh] w-[20vw]' />
        <Container className='pt-[150px] pb-[150px]'>
-        <Row>
+        <Row className='relative z-1'>
         <Col md={4} sm={12}>
         <div className="build-on-etherem flex justify-center item-center gap-3 bg-[#0487AB] border-[4px] border-[#003E58] shadow-[-8px_8px_0_#003e58] rounded p-[13px]">
             <div className="img-sec-div p-2 bg-[#FFB3E8] h-[50px] w-[80px] border-[2px] border-[#EF53C0C0] rounded flex justify-center items-center shadow-[-6px_4px_0_#003e58]">
@@ -111,8 +111,8 @@ export default function AllFeatures() {
     </Col>
 </Row> 
         </Row>
-        <Image src={tfighter1} alt="img-1" className=' absolute h-[25vh] w-[25vw] ml-[55%] -mt-[6%] hidden sm:block'/>
-        <Image src={img95} alt="img-1" className=' absolute h-[40vh] w-[34vw] ml-[3%] -mt-[3%] hidden sm:block'/>
+        <Image src={tfighter1} alt="img-1" className=' absolute h-[25vh] w-[25vw] ml-[55%] -mt-[6%] hidden z-0 md:block'/>
+        <Image src={img95} alt="img-1" className=' absolute h-[40vh] w-[34vw] ml-[3%] -mt-[3%] hidden z-0 md:block'/>
 
        </Container>
     </div>

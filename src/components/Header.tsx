@@ -20,8 +20,8 @@ export default function Header() {
   <div className={`${koulenFont.className} main-header-img`}>
     {/* navbar */}
     <Navbar/>
-    <Image src={aliandance} alt="Header Image" width={160} height={160} className='absolute left-[38%] top-[100px]'/>
-    <Image src={alian4} alt='alian5' className='absolute top-[80%]' width={120} height={120}/>
+    <Image src={aliandance} alt="Header Image" width={160} height={160} className='absolute left-[38%] top-[60px] hidden sm:block '/>
+    <Image src={alian4} alt='alian5' className='absolute top-[80%] hidden sm:block' width={120} height={120}/>
     {/* <div className="image-d">
       <Image 
         src={headerimg} 
@@ -29,15 +29,15 @@ export default function Header() {
         className='absolute top-0 bottom-0 object-cover z-[-1] '
       />
       </div> */}
-      <Container className='pt-[80px]'>
+      <Container className='pt-[40px]'>
         <Row>
           <Col md={6}>
 <HeaderCalboard/>
           </Col>
-          <Col md={6}>
-          <h5 className='text-center text-white'>LAYER BRETT IS UNLEASHING</h5>
+          <Col md={6} className=''>
+          <h5 className='text-center text-white car-img-responsiveg'>LAYER BRETT IS UNLEASHING</h5>
           <Image src={thefuture} alt='future' className='ml-4 sm:ml-2'/>
-          <Image src={carimg} alt='carimg' className='mt-24'/>
+          <Image src={carimg} alt='carimg' className=''/>
           </Col>
         </Row>
       </Container>

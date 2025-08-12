@@ -21,7 +21,7 @@ export default function Roadmap() {
       <div
         className={`${koulenFont.className} roadmap-background-img pt-[22vh] pb-[20vh] relative`}
       >
-        <div className="main-roadmap-section flex gap-10 w-[80vw] mx-auto flex-wrap">
+        <div className="main-roadmap-section flex gap-10 w-[80vw] mx-auto">
           <div className="roadmap-phase-1 flex flex-col items-center justify-center gap-8 flex-wrap">
             <div className="relative step-1 build-on-etherem  bg-[#0487AB] border-[4px] border-[#003E58] shadow-[-8px_8px_0_#003e58] rounded p-[13px]">
               <div className="absolute top-[-20px] left-[8%] img-sec-div p-1 bg-[#FFB3E8] h-[39px] w-[120px] border-[2px] border-[#EF53C0C0] rounded flex justify-center items-center shadow-[-6px_4px_0_#003e58]">

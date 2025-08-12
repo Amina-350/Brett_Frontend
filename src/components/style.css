@@ -77,8 +77,229 @@
   background-position: center;  /* keep centered */
   background-repeat: no-repeat; /* avoid tiling */
  width: 100%;
-  /* height: 100vh;     */
-    /* margin-top: -20px;   */
 } 
+.early-adopt{
+    top:9vh;
+}
+.sub-precel-bounces{
+    flex-direction: column !important;
+    gap: 80px;
+}
+.main-precel-section{
+    width:90vw !important;
+}
+.sub-parcel-div{
+    /* width: 100% !important;
+    margin: auto !important; */
+}
+.early-adopt {
+left: 40vw;
+}
+.sub-parcel-div{
+    /* width: 100% !important; */
+    margin-left: 2vw !important;
+}
+.precel-bounce-section{
+    margin-right: 0px !important;
+}
+.precel-bounce-section1{
+    padding-left: 0px !important;
+}
+.sub-section-charateristic-list {
+display:flex !important;
+flex-direction: column !important;
+}
+
+}
+
+@media screen and (max-width:590px) {
+   .car-img-responsiveg{
+ margin-top:30px !important;
+} 
+
+.build-on-etherem{
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+.steps{
+    width: 70px !important;
+}
+    .how-we-buy-text{
+        padding-top: 0px !important;
+    }
+    .main-how-buy{
+        display: flex !important;
+        flex-direction: column !important;
+        width:94vw !important;
     
+        margin-left:1% !important;
+    }
+    .token30{
+        position: absolute;
+        top:18vh !important;
+        left:39vw;
+    }
+    .token25{
+         position: absolute;
+        top:33vh !important;
+        left:20vw;  
+    }
+    .token8{
+         position: absolute;
+        top:46vh !important;
+        left:39vw; 
+    }
+    .token15{
+           position: absolute;
+        top:60vh !important;
+        left:20vw;   
+    }
+    .token5{
+          position: absolute;
+        top:73vh !important;
+       left:39vw;  
+    }
+    .twopointfive{
+          position: absolute;
+        top:85vh !important;
+         left:20vw;  
+    }
+    .tokenone{
+          position: absolute;
+        top:98vh !important;
+       left:39vw; 
+    }
+    .tokenthreepointfive{
+         position: absolute;
+        top:98vh !important;
+       left:39vw;  
+    }
+
+    .symbol-board{
+        margin-top: 30px !important;
+    }
+    .early-adopt {
+top: 20vw;
+}
+.sub-precel-bounces{
+    flex-direction: column !important;
+    gap:180px;
+}
+.hello-parcel{
+    flex-wrap: wrap !important;
+}
+.parcel-bounce-name{
+    width: 50vw !important;
+    font-size: 3.5rem !important;
+}
+.main-precel-section{
+
+    width:96vw !important;
+    margin-left:10px !important;
+    /* margin-left:0px !important; */
+}
+.main-precel-bounces{
+    padding-top: 20px !important;
+    padding-bottom:70px !important;
+}
+.alien3{
+    display: none;
+}
+.early-adopt{
+    display: none !important;
+}
+.eightthreedancing{
+    display: none !important;
+}
+.alian7{
+    display: none !important;
+}
+.adzrism{
+    display: none !important;
+}
+.main-precel-bounces{
+
+    /* margin-top: -8vh !important; */
+    padding-top:-10vh !important;
+}
+.main-layer-brett-button1{
+    flex-direction: column !important;
+}
+.speed-text{
+    width: 60vw !important;
+}
+.submain-precel-bounces{
+    position: static !important;
+}
+.transcation-image-sec1{
+
+}
+.transcation-image-sec11{
+    width: 96vw !important;
+}
+.transcation-image-sec1{
+    width:90% !important;
+    left: 5% !important;
+}
+.img-sec-div1{
+    width: 10% !important;
+    height:29% !important;
+    padding: 3px !important;
+}
+.img-sec-div-one{
+height: 10px !important;
+width: 10px !important;
+
+}
+.million-giveaway{
+    font-size:20px !important;
+    margin-top: -2px  !important;
+    padding-top: 2px !important;
+
+}
+.buy-and-stake2-text{
+font-size: 13px !important;
+margin-left:17% !important;
+}
+.buy-and-stake2{
+   width:35% !important; 
+   margin-left:6% !important;
+}
+.ractangle1{
+    width: 20px !important;
+    height: 20px !important;
+    all: unset !important;
+    display: none !important;
+}
+.ractangle2{
+    width: 20px !important;
+    height: 20px !important;
+    all: unset !important;
+    display: none !important;
+}
+.ractangle3{
+    width: 20px !important;
+    height: 20px !important;
+    all: unset !important;
+    display: none !important;
+}
+.ractangle4{
+    width: 20px !important;
+    height: 20px !important;
+    all: unset !important;
+    display: none !important;
+}
+.ractangle5{
+    width: 20px !important;
+    height: 20px !important; 
+    all: unset !important;
+    display: none !important;
+
+}
+.cal-section-div{
+    width: 100vw !important;
+margin-left:0vw !important;
+all: unset !important;
+display: none !important;
+}
 }

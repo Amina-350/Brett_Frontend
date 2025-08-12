@@ -21,7 +21,7 @@ export default function HowBuy() {
           <Image
             src={howbuy}
             alt="howbuy"
-            className="w-[30%] h-[30%] pt-[80px] ml-[27%]"
+            className="w-[30%] h-[30%] pt-[80px] ml-[27%] how-we-buy-text"
           />
           <Image src={dancealian} alt="dancealian" className="absolute -mt-[87px]"/>
            <Image src={rtd} alt='rtd' className="absolute top-[55%] w-[15vw] h-[64vh]"/>
@@ -32,9 +32,9 @@ export default function HowBuy() {
               <Col md={12} sm={12}>
                 <div className="main-how-buy flex flex-nowrap sm:flex-wrap gap-8 items-center justify-center w-[70vw] ml-[12%] pb-[45%]">
                   <div className="relative  mt-[16%] step-1 build-on-etherem  bg-[#0487AB] border-[4px] border-[#003E58] shadow-[-8px_8px_0_#003e58] rounded p-[13px] -ml-8 mr-5">
-                    <div className="absolute top-[-20px] left-[3%] img-sec-div p-1 bg-[#FFB3E8] h-[39px] w-[120px] border-[2px] border-[#EF53C0C0] rounded flex justify-center items-center shadow-[-6px_4px_0_#003e58]">
+                    <div className="steps absolute top-[-20px] left-[3%] img-sec-div p-1 bg-[#FFB3E8] h-[39px] w-[120px] border-[2px] border-[#EF53C0C0] rounded flex justify-center items-center shadow-[-6px_4px_0_#003e58]">
                       {/* <Image src={vector2} alt="img-1"/> */}
-                      <p className="pt-[20px]">Step 1</p>
+                      <p className="pt-[20px] ">Step 1</p>
                     </div>
                     <div className="content-sec">
                       <p className="text-[#D6FF00] text-[24px] pt-[13px] mb-0">
@@ -50,9 +50,9 @@ export default function HowBuy() {
                   </div>
 
                   <div className="relative mt-[10%] step-1 build-on-etherem  bg-[#0487AB] border-[4px] border-[#003E58] shadow-[-8px_8px_0_#003e58] rounded p-[13px] -ml-8 mr-5">
-                    <div className="absolute top-[-20px] left-[3%] img-sec-div p-1 bg-[#FFB3E8] h-[39px] w-[120px] border-[2px] border-[#EF53C0C0] rounded flex justify-center items-center shadow-[-6px_4px_0_#003e58]">
+                    <div className="steps absolute top-[-20px] left-[3%] img-sec-div p-1 bg-[#FFB3E8] h-[39px] w-[120px] border-[2px] border-[#EF53C0C0] rounded flex justify-center items-center shadow-[-6px_4px_0_#003e58]">
                       {/* <Image src={vector2} alt="img-1"/> */}
-                      <p className="pt-[20px]">Step 2</p>
+                      <p className="pt-[20px] ">Step 2</p>
                     </div>
                     <div className="content-sec">
                       <p className="text-[#D6FF00] text-[24px] pt-[13px] mb-0">
@@ -65,9 +65,9 @@ export default function HowBuy() {
                   </div>
 
                   <div className="relative step-1 build-on-etherem  bg-[#0487AB] border-[4px] border-[#003E58] shadow-[-8px_8px_0_#003e58] rounded p-[13px] -ml-8 mr-5">
-                    <div className="absolute top-[-20px] left-[3%] img-sec-div p-1 bg-[#FFB3E8] h-[39px] w-[120px] border-[2px] border-[#EF53C0C0] rounded flex justify-center items-center shadow-[-6px_4px_0_#003e58]">
+                    <div className=" steps absolute top-[-20px] left-[3%] img-sec-div p-1 bg-[#FFB3E8] h-[39px] w-[120px] border-[2px] border-[#EF53C0C0] rounded flex justify-center items-center shadow-[-6px_4px_0_#003e58]">
                       {/* <Image src={vector2} alt="img-1"/> */}
-                      <p className="pt-[15px]">Step 3</p>
+                      <p className="pt-[15px] ">Step 3</p>
                     </div>
                     <div className="content-sec">
                       <p className="text-[#D6FF00] text-[24px] pt-[13px] mb-0">

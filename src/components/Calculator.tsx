@@ -30,7 +30,7 @@ export default function Calculator() {
             <div className="subheadercal bg-[#003e58] rounded pt-3 pb-2 pl-1 pr-3">
               <div className="bg-[#376c8a] pt-[6px] pl-[20px] pr-[20px] pb-[6px]">
                 <div className="text-[20px] text-[#FFFFFF]">
-                  <p className="text-dark [-webkit-text-stroke:1px_#D6FF00] text-center text-[3vw] mb-0 pb-0 mt-0">
+                  <p className="text-dark [-webkit-text-stroke:1px_#D6FF00] text-center text-[2vw] mb-0 pb-0 mt-0">
                     Try The $LBRETT Pump Calculator
                   </p>
                 </div>
@@ -119,7 +119,7 @@ export default function Calculator() {
             </div>
             <Container className="mt-2 mb-0 p-0 ml-[70px]">
               <div className="flex flex-wrap justify-between items-center gap-4 ml-[10px] mr-[50px]">
-                <div className="cal-buttons flex justify-center items-center gap-4 flex-wrap">
+                <div className="cal-buttons flex justify-center items-center gap-4">
                   <div className="img-sec-div bg-[#0487AB] h-[45px] w-[45px] border-[2px] border-[#003E58] rounded flex justify-center items-center shadow-[-6px_4px_0_#003e58]">
                     <p className="m-0 text-[3vw] text-white">+</p>
                   </div>
