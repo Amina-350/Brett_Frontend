@@ -55,7 +55,7 @@
      background-image: url(../../public/assets/background9\ 1.png);
     background-size:cover;
     background-repeat: no-repeat; 
-    margin-top:-170px;
+    margin-top:-230px;
 }
 .roadmap-background-img{
          background-image: url(../../public/assets/Tokenomics\ characters.png);
@@ -114,7 +114,7 @@ display:flex !important;
 flex-direction: column !important;
 }
 .symbol-board1{
-    width: 75vw !important;
+    width:90vw !important;
 }
 }
 
@@ -131,7 +131,9 @@ flex-direction: column !important;
     width: 70px !important;
 }
     .how-we-buy-text{
+        width: 80vw !important;
         padding-top: 0px !important;
+        margin-left: 10% !important;
     }
     .main-how-buy{
         display: flex !important;
@@ -233,7 +235,8 @@ top: 20vw;
     flex-direction: column !important;
 }
 .speed-text{
-    width: 60vw !important;
+    width:78vw !important;
+    height: 12vh !important;
 }
 .submain-precel-bounces{
     position: static !important;
@@ -265,11 +268,12 @@ width: 10px !important;
 
 }
 .buy-and-stake2-text{
-font-size: 13px !important;
+font-size: 10px !important;
 margin-left:17% !important;
 }
 .buy-and-stake2{
-   width:35% !important; 
+font-size: 10px !important;
+   width:40% !important; 
    margin-left:6% !important;
 }
 .ractangle1{
@@ -321,7 +325,7 @@ padding-top:20px !important;
     display:none !important;
 }
 .roadmap-background-img{
-    margin-top:-140px !important;
+    margin-top:-120px !important;
 }
 .calc{
     width:60vw !important;
@@ -360,6 +364,90 @@ padding-top:20px !important;
 }
 
 .about-brett1{
-    margin-left:5% !important;
+    margin-left:8% !important;
+}
+.pay-with-eth-text {
+font-size: 10px !important;
+}
+.max-b{
+ padding-right:1px !important;
+ padding-left: 1px !important;
+ margin-left: 0px !important;
+}
+.carimg{
+    margin-left: 0px !important;
+    margin-top: -30px !important;
+}
+.future{
+    margin-left: 0px !important;
+}
+.about-layer-brett1{
+    margin-top:50px !important;
+    justify-content: center !important;
+}
+.main-layer-brett-button2{
+    flex-direction: column !important;
+}
+.aliantounge{
+
+    display: block !important;
+   
+}
+.dancing-img1{
+    margin-left:15% !important;
+}
+.aliantounge-container{
+    padding-top:2px !important;
+}
+.build-on-etherem-sec{
+    margin-top:20px !important;
+}
+.Whitepaper{
+    width:92vw !important;
+    margin-left: 6% !important;
+}
+.Whitepaper1{
+    width:74vw !important;
+    margin-left:1% !important;
+}
+.build-on-etherem-step2{
+    margin-top:2% !important;
+}
+.tokenmicsname{
+    width: 70vw !important;
+    margin-left:15% !important;
+}
+.adcartoon{
+    display: none !important;
+}
+.main-charateristic{
+    padding-bottom:65vh !important;
+}
+
+.planet11{
+    z-index:0;
+}
+.planet-4{
+    top: 31vh !important;
+    height:33vh !important;
+}
+.planate{
+    margin-left: 5vw !important;
+    width: 90vw !important;
+}
+.transcation-image-sec11{
+    z-index: 100 !important;
+}
+.faqs{
+    height: 15vh !important;
+}
+.faqss{
+    height:19vh !important;
+}
+.Pump-Calculator{
+    font-size: 16px !important;
+}
+.main-lbrett-balanceq{
+    margin-top: 10px !important;
 }
 }

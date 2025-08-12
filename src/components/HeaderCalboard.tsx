@@ -62,10 +62,10 @@ export default function HeaderCalboard() {
           {/* pay with eth section */}
           <div className="pay-with-eth-section mt-1 flex justify-between flex-wrap">
             <div className="sub-pay-eth-section h-full">
-              <div className="pay-with-eth  text-[white] flex justify-between items-center mt-2 flex-wrap" >
+              <div className="pay-with-eth pay-with-eth-text  text-[white] flex justify-between items-center mt-2" >
                 <span>Pay with eth</span>
-                <span className="ml-[20px] rounded-[3px] bg-[#003e58] text-[white]">
-                  <button className=" pt-[2px] pb-[2px] pr-[5px] pl-[5px] ">
+                <span className="ml-[20px] rounded-[3px] bg-[#003e58] max-b text-[white]">
+                  <button className=" pt-[2px] pb-[2px] pr-[5px] pl-[5px] max-b">
                     MAX
                   </button>
                 </span> &nbsp; &nbsp;

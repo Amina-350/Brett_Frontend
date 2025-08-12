@@ -22,8 +22,16 @@ export default function AllFeatures() {
     <>
     <div className={`${koulenFont.className} all-feature-section`}>
         <Image src={tfighter} alt="tfighter" className='absolute h-[20vh] w-[20vw]' />
-       <Container className='pt-[150px] pb-[150px]'>
+       <Container className='pt-[150px] pb-[150px] aliantounge-container'>
         <Row className='relative z-1'>
+            <Col md={4} sm={12} className='aliantounge hidden'>
+      <div className="dancing-img dancing-img1">
+        <Image src={dancing4} alt="img-1" className='h-[70vh] w-[70vw]'/>
+      </div>
+        </Col>
+
+
+
         <Col md={4} sm={12}>
         <div className="build-on-etherem flex justify-center item-center gap-3 bg-[#0487AB] border-[4px] border-[#003E58] shadow-[-8px_8px_0_#003e58] rounded p-[13px]">
             <div className="img-sec-div p-2 bg-[#FFB3E8] h-[50px] w-[80px] border-[2px] border-[#EF53C0C0] rounded flex justify-center items-center shadow-[-6px_4px_0_#003e58]">
@@ -58,13 +66,13 @@ export default function AllFeatures() {
             </div>
         </div>
         </Col>
-      <Col md={4} sm={12}>
+      <Col md={4} sm={12} className="hidden sm:block">
       <div className="dancing-img">
         <Image src={dancing4} alt="img-1" className='h-[70vh] w-[70vw]'/>
       </div>
         </Col>
         <Col md={4} sm={12}>
-         <div className="build-on-etherem flex justify-center item-center gap-3 bg-[#0487AB] border-[4px] border-[#003E58] shadow-[-8px_8px_0_#003e58] rounded p-[13px]">
+         <div className="build-on-etherem build-on-etherem-sec flex justify-center item-center gap-3 bg-[#0487AB] border-[4px] border-[#003E58] shadow-[-8px_8px_0_#003e58] rounded p-[13px]">
             <div className="img-sec-div p-2 bg-[#FFB3E8] h-[50px] w-[80px] border-[2px] border-[#EF53C0C0] rounded flex justify-center items-center shadow-[-6px_4px_0_#003e58]">
                 <Image src={vector3} alt="img-1"/>
 
@@ -98,13 +106,13 @@ export default function AllFeatures() {
         </div>
         </Col>
 <Row>
-    <Col md={12} sm={12} className='mt-4 flex justify-center items-center'>
-     <div className="main-layer-brett-button flex justify-start items-center  gap-4 flex-wrap">
-           <div className="buy-and-stake border-[2px] border-[#f36bca] bg-[#FFB3E8] rounded w-[170px] shadow-[-8px_8px_0_#003e58]">
+    <Col md={12} sm={12} className='mt-4 flex justify-center items-center '>
+     <div className="main-layer-brett-button  flex justify-start items-center  gap-4 flex-wrap">
+           <div className="buy-and-stake border-[2px] border-[#f36bca] bg-[#FFB3E8]  Whitepaper rounded w-[170px] shadow-[-8px_8px_0_#003e58]">
           <p className="text-[#FFFFFF7D] text-[18px] text-center text-dark mb-1 mt-1">Whitepaper</p>
         </div>
            {/*  Buy and stake */}
-        <div className="buy-and-stake border-[4px] border-[#009BAF] bg-[#00D2ED] rounded w-[170px] shadow-[-8px_8px_0_#003e58]">
+        <div className="buy-and-stake border-[4px] border-[#009BAF] bg-[#00D2ED] rounded Whitepaper w-[170px] shadow-[-8px_8px_0_#003e58]">
           <p className="text-[#FFFFFF7D] text-[18px] text-center text-dark mb-1 mt-1">BUY NOW</p>
         </div>
         </div>

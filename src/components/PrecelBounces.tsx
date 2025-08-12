@@ -102,7 +102,7 @@ export default function PrecelBounces() {
         <div className="sub-parcel-div">
         <p className="bg-[#FFFFFF] border-[2px] border-[#bfbfbf] ml-[11vw] mt-[190px] p-2 rounded w-[160px] leading-none text-[14px] early-adopt z-0">Early adopters of $LBRETT enjoy exclusive staking bonuses.</p>
         
-        <Image src={adcartoon} alt="adcartoon" className="w-[25vw] h-[75vh] ml-[12vw] mt-[-60px]"/>
+        <Image src={adcartoon} alt="adcartoon" className="w-[25vw] h-[75vh] ml-[12vw] mt-[-60px] adcartoon"/>
           <Image src={yoda} alt="yoda" className="w-[16vw] h-[40vh] mt-[-200px]"/>
       </div>
              <Image src={aliandance3} alt="yoda" className="w-[10vw] h-[50vh] z-0 absolute bottom-[0vh] alien3"/>

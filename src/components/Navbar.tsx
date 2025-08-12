@@ -88,7 +88,7 @@ export default function Navbar() {
           </div>
 
           {/* BUY NOW below links */}
-          <div className="buy-and-stake border-[4px] border-[#009BAF] bg-[#00D2ED] rounded w-[130px] shadow-[-8px_4px_0_#D6FF00] mt-4">
+          <div className="buy-and-stake border-[4px] border-[#009BAF] bg-[#00D2ED] rounded w-[130px] shadow-[-8px_4px_0_#D6FF00] mt-1">
             <p className="text-[#FFFFFF7D] text-[18px] text-center mb-1 mt-1 text-white">
               BUY NOW
             </p>

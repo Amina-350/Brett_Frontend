@@ -18,7 +18,7 @@ export default function About() {
         <Featured />
   <div className="about-brett about-brett1 w-[80%] ml-[20%] mt-[7%] sm:w-[40%] sm:ml-[46%]">
 
-         <div className="about-layer-brett flex gap-2 justify-start items-center">
+         <div className="about-layer-brett  about-layer-brett1 flex gap-2 justify-start items-center">
           <h4>ABOUT</h4>
           <span><Image src={layerbrett} alt="layerbratt" className="w-[150px] "/></span>
           </div>
@@ -30,7 +30,7 @@ export default function About() {
             another Layer 2; it’s a movement built for speed, rewards, and a
             whole lot of character!
           </p>
-          <div className="main-layer-brett-button flex justify-start items-center  gap-4">
+          <div className="main-layer-brett-button  main-layer-brett-button2 flex justify-start items-center  gap-4">
            <div className="buy-and-stake border-[2px] border-[#f36bca] bg-[#FFB3E8] rounded w-[170px] shadow-[-8px_8px_0_#003e58]">
           <p className="text-[#FFFFFF7D] text-[18px] text-center text-dark mb-1 mt-1">Whitepaper</p>
         </div>

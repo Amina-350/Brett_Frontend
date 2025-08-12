@@ -49,7 +49,7 @@ export default function HowBuy() {
                     </div>
                   </div>
 
-                  <div className="relative mt-[10%] step-1 build-on-etherem  bg-[#0487AB] border-[4px] border-[#003E58] shadow-[-8px_8px_0_#003e58] rounded p-[13px] -ml-8 mr-5">
+                  <div className="relative mt-[10%] step-1 build-on-etherem  build-on-etherem-step2 bg-[#0487AB] border-[4px] border-[#003E58] shadow-[-8px_8px_0_#003e58] rounded p-[13px] -ml-8 mr-5">
                     <div className="steps absolute top-[-20px] left-[3%] img-sec-div p-1 bg-[#FFB3E8] h-[39px] w-[120px] border-[2px] border-[#EF53C0C0] rounded flex justify-center items-center shadow-[-6px_4px_0_#003e58]">
                       {/* <Image src={vector2} alt="img-1"/> */}
                       <p className="pt-[20px] ">Step 2</p>

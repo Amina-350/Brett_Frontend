@@ -27,22 +27,22 @@ export default function Brettwar() {
           <Image
             src={ad7}
             alt="Planet 1"
-            className="planet-1 h-[40vh] w-[20vw] ml-[65vw] absolute top-[15vh] z-10 absolute"
+            className="planet-1 h-[40vh] w-[20%] ml-[65%] absolute top-[15vh] z-10 absolute ad7 hidden sm:block"
           />
           <Image
             src={breetwar}
             alt="Planet 1"
-            className="planet-1 h-[40vh] w-[20vw] ml-[38vw] absolute top-[24vh] z-10 relative"
+            className="planet-1 planet-2 h-[40%] w-[20%] ml-[38vw] absolute top-[24vh] z-10 relative"
           />
           <Image
             src={anima}
             alt="planet1"
-            className="absolute z-1 top-[12vh] h-[80vh] w-[80vw] left-[12vw]"
+            className="planet11 absolute planet-4 z-1 top-[12%] h-[80%] w-[80vw] left-[12vw]"
           />
           <Image
             src={planet1}
             alt="planet1"
-            className="h-[100vh] w-[80vw] mt-[-36vh] ml-[9vw] z-0 relative"
+            className="  h-[100vh] plant w-[80vw] mt-[-36vh] ml-[9vw] z-0 relative planate"
           />
         </div>
 

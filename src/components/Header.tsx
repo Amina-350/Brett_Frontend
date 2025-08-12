@@ -36,8 +36,8 @@ export default function Header() {
           </Col>
           <Col md={6} className=''>
           <h5 className='text-center text-white car-img-responsiveg'>LAYER BRETT IS UNLEASHING</h5>
-          <Image src={thefuture} alt='future' className='ml-4 sm:ml-2'/>
-          <Image src={carimg} alt='carimg' className=''/>
+          <Image src={thefuture} alt='future' className='ml-4 future'/>
+          <Image src={carimg} alt='carimg' className='carimg'/>
           </Col>
         </Row>
       </Container>

@@ -141,13 +141,13 @@ export default function Charateristic() {
                 </div>
                 <div className="last-button-section flex justify-center items-center gap-4 ">
                   <div className="main-layer-brett-button main-layer-brett-button1 flex justify-start items-center gap-4">
-                    <div className="buy-and-stake border-[2px] border-[#f36bca] bg-[#FFB3E8] rounded w-[170px] shadow-[-8px_8px_0_#003e58]">
+                    <div className="buy-and-stake border-[2px] border-[#f36bca] Whitepaper1 bg-[#FFB3E8] rounded w-[170px] shadow-[-8px_8px_0_#003e58]">
                       <p className="text-[#FFFFFF7D] text-[18px] text-center text-dark mb-1 mt-1">
                         Whitepaper
                       </p>
                     </div>
                     {/*  Buy and stake */}
-                    <div className="buy-and-stake border-[4px] border-[#009BAF] bg-[#00D2ED] rounded w-[170px] shadow-[-8px_8px_0_#003e58]">
+                    <div className="buy-and-stake  Whitepaper1 border-[4px] border-[#009BAF] bg-[#00D2ED] rounded w-[170px] shadow-[-8px_8px_0_#003e58]">
                       <p className="text-[#FFFFFF7D] text-[18px] text-center text-dark mb-1 mt-1">
                         BUY NOW
                       </p>

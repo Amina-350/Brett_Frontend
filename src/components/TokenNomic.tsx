@@ -31,7 +31,7 @@ export default function TokenNomic() {
    <>
    <div className={`${koulenFont.className} TokenNomic-background-img pt-[5%] pb-[5%] `}>
    
-    <Image src={tokenmics} alt="tokenmics" className='h-[13vh] w-[30vw] ml-[35%]'/>
+    <Image src={tokenmics} alt="tokenmics" className='h-[13vh] w-[30vw] ml-[35%] tokenmicsname'/>
     <div className="tokenmic-sub-div relative h-[523px]">
      <Image src={alien12} alt="tokenmics1" className='absolute top-[10vh] w-[15vw] h-[25vh]'/>
       <Image src={alian9} alt="tokenmics1" className='absolute z-0 top-[70vh] left-[6vw] w-[15vw] h-[25vh]'/>

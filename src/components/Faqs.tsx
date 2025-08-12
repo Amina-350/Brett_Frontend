@@ -78,8 +78,8 @@ export default function Faqs() {
       <div className="main-faqs-section px-6 py-8 ml-[14vw] relative z-10">
         {/* Upper section with images */}
         <div className="upr-sec flex gap-8 items-center mb-6 max-w-2xl mx-auto">
-          <Image src={faqsImg} alt="faqs" className="w-[17vw] h-[20vh]" />
-          <Image src={planet2} alt="planet2" className="w-[29vw] h-[35vh]" />
+          <Image src={faqsImg} alt="faqs" className="w-[17vw] h-[20vh] faqs" />
+          <Image src={planet2} alt="planet2" className="w-[29vw] h-[35vh] faqss" />
         </div>
 
         {/* FAQ Section */}
@@ -108,14 +108,30 @@ export default function Faqs() {
         </div>
       </div>
       <Image src={social} alt="social" className="absolute top-[80vh] z-0 w-[40vw] h-[70vh]" />
-     <div className="last-images-section w-[60vw] flex justify-center items-center gap-4 mx-auto flex-wrap mt-4 pb-8">
-  <Image src={calc} alt="calc" className="w-[5vw] h-[10vh]" />
-  <Image src={layerbreet} alt="layerbreet" className="h-[10vh]" />
-  <Image src={vector5} alt="vector5" className="h-[10vh]" />
-  <Image src={vector6} alt="vector6" className="h-[10vh]" />
-  <Image src={vector7} alt="vector7" className="h-[10vh]" />
-  <Image src={adsrem} alt="adsrem" className="w-[18vw] h-[30vh]" />
+   <div className="last-images-section w-[60vw] flex flex-col sm:flex-row justify-center items-center gap-4 mx-auto mt-4 pb-8">
+  
+  {/* First two images */}
+  <div className="flex gap-4 justify-center items-center">
+    <Image src={calc} alt="calc" className="w-[5vw] h-[10vh]" />
+    <Image src={layerbreet} alt="layerbreet" className="h-[10vh]" />
+  </div>
+
+  {/* Remaining three images */}
+  <div className="flex gap-4 justify-center items-center">
+    <Image src={vector5} alt="vector5" className="h-[10vh]" />
+    <Image src={vector6} alt="vector6" className="h-[10vh]" />
+    <Image src={vector7} alt="vector7" className="h-[10vh]" />
+  </div>
+
+  {/* This last one remains hidden on small screens */}
+  <Image 
+    src={adsrem} 
+    alt="adsrem" 
+    className="w-[18vw] h-[30vh] hidden sm:block" 
+  />
+
 </div>
+
 
 <div className={`${NunitoFont.className} bg-black relative text-white w-[76vw] mx-auto pb-4`}>
     <p className="text-center">Powering the Future of MemeCoins © Layer Brett 2024 All Rights Reserved</p>

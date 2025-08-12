@@ -30,7 +30,7 @@ export default function Calculator() {
             <div className="subheadercal bg-[#003e58] rounded pt-3 pb-2 pl-1 pr-3">
               <div className="bg-[#376c8a] pt-[6px] pl-[20px] pr-[20px] pb-[6px]">
                 <div className="text-[20px] text-[#FFFFFF]">
-                  <p className="text-dark [-webkit-text-stroke:1px_#D6FF00] text-center text-[2vw] mb-0 pb-0 mt-0">
+                  <p className="text-dark Pump-Calculator [-webkit-text-stroke:1px_#D6FF00] text-center text-[2vw] mb-0 pb-0 mt-0">
                     Try The $LBRETT Pump Calculator
                   </p>
                 </div>
@@ -94,7 +94,7 @@ export default function Calculator() {
                 </div>
 
                 {/* Lbrett balance */}
-                <div className="main-lbrett-balance flex justify-center items-center gap-5 mt-4 flex-wrap">
+                <div className="main-lbrett-balance main-lbrett-balanceq flex justify-center items-center gap-5 mt-4 flex-wrap">
                   <span className="text-white text-[23px]">
                     Total Bag Worth:
                   </span>
@@ -144,12 +144,12 @@ export default function Calculator() {
         <Image
           src={ads6}
           alt=""
-          className="absolute top-[70vh] w-[32vw] h-[70vh] z-0 ads6"
+          className="absolute top-[70vh] w-[32vw] h-[70vh] z-0 ads6 hidden sm:block"
         />
         <Image
           src={alian4}
           alt="alian4"
-          className="absolute top-[70vh] w-[26vw] h-[60vh] left-[70vw] z-0 alian4"
+          className="absolute top-[70vh] w-[26vw] h-[60vh] left-[70vw] z-0 alian4 hidden sm:block"
         />
       </div>
     </>
