@@ -16,7 +16,7 @@ export default function About() {
     <>
       <div className={`${koulenFont.className} about-featured pb-[40%]`}>
         <Featured />
-  <div className="about-brett w-[80%] ml-[20%] mt-[7%] sm:w-[40%] sm:ml-[46%]">
+  <div className="about-brett about-brett1 w-[80%] ml-[20%] mt-[7%] sm:w-[40%] sm:ml-[46%]">
 
          <div className="about-layer-brett flex gap-2 justify-start items-center">
           <h4>ABOUT</h4>

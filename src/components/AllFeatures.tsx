@@ -99,7 +99,7 @@ export default function AllFeatures() {
         </Col>
 <Row>
     <Col md={12} sm={12} className='mt-4 flex justify-center items-center'>
-     <div className="main-layer-brett-button flex justify-start items-center  gap-4">
+     <div className="main-layer-brett-button flex justify-start items-center  gap-4 flex-wrap">
            <div className="buy-and-stake border-[2px] border-[#f36bca] bg-[#FFB3E8] rounded w-[170px] shadow-[-8px_8px_0_#003e58]">
           <p className="text-[#FFFFFF7D] text-[18px] text-center text-dark mb-1 mt-1">Whitepaper</p>
         </div>

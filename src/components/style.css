@@ -78,6 +78,10 @@
   background-repeat: no-repeat; /* avoid tiling */
  width: 100%;
 } 
+.cal-sec {
+    width: 30px !important;
+    height: 30px !important;
+}
 .early-adopt{
     top:9vh;
 }
@@ -109,7 +113,9 @@ left: 40vw;
 display:flex !important;
 flex-direction: column !important;
 }
-
+.symbol-board1{
+    width: 75vw !important;
+}
 }
 
 @media screen and (max-width:590px) {
@@ -136,43 +142,44 @@ flex-direction: column !important;
     }
     .token30{
         position: absolute;
-        top:18vh !important;
+        top:22vh !important;
         left:39vw;
     }
     .token25{
          position: absolute;
-        top:33vh !important;
+        top:38vh !important;
         left:20vw;  
     }
     .token8{
          position: absolute;
-        top:46vh !important;
+        top:55vh !important;
         left:39vw; 
     }
     .token15{
            position: absolute;
-        top:60vh !important;
+        top:73vh !important;
         left:20vw;   
     }
     .token5{
           position: absolute;
-        top:73vh !important;
+        top:90vh !important;
        left:39vw;  
     }
     .twopointfive{
           position: absolute;
-        top:85vh !important;
+        top:106vh !important;
          left:20vw;  
     }
     .tokenone{
           position: absolute;
-        top:98vh !important;
+        top:123vh !important;
        left:39vw; 
     }
     .tokenthreepointfive{
          position: absolute;
-        top:98vh !important;
+        top:92vh !important;
        left:39vw;  
+       display: none !important;
     }
 
     .symbol-board{
@@ -301,5 +308,58 @@ margin-left:17% !important;
 margin-left:0vw !important;
 all: unset !important;
 display: none !important;
+}
+.main-roadmap-section{
+    width: 100vw !important;
+flex-direction: column !important;
+padding-top:20px !important;
+}
+.roadmap-phase-a{
+    display: block !important;
+}
+.roadmap-phase-2{
+    display:none !important;
+}
+.roadmap-background-img{
+    margin-top:-140px !important;
+}
+.calc{
+    width:60vw !important;
+    height:17vh !important;
+}
+.sub-cal-section{
+    width:95vw !important;
+}
+.step-a {
+    display: none !important;
+}
+.roadmap-write{
+    margin-left:20% !important;
+    width:50vw;
+}
+.spokone{
+    margin-left:20% !important;
+    width:50vw; 
+}
+.cal-sec {
+    width: 30px !important;
+    height: 30px !important;
+}
+.ads6{
+    top:200vh !important;
+    width: 20vw !important;
+    height: 40vh !important;
+}
+.alian4{
+    top:200vh !important;
+    width: 20vw !important;
+    height: 40vh !important;
+}
+.bg-black{
+    z-index:-20 !important;
+}
+
+.about-brett1{
+    margin-left:5% !important;
 }
 }

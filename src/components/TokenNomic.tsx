@@ -131,7 +131,7 @@ export default function TokenNomic() {
     </div>
 {/* symbol table */}
 <div
-  className={`${koulenFont.className} symbol-board z-20 bg-[#0487ab] pt-4 pl-5 pr-5 pb-2 border-[4px] border-[#003e58] rounded w-[55vw] mx-auto`}>
+  className={`${koulenFont.className} symbol-board symbol-board1 z-20 bg-[#0487ab] pt-4 pl-5 pr-5 pb-2 border-[4px] border-[#003e58] rounded w-[55vw] mx-auto`}>
   <div className="subheadercal bg-[#003e58] rounded pt-3 pb-2 pl-1 pr-3">
     <div className="bg-[#376c8a] pt-[6px] pl-[20px] pr-[20px] pb-[6px]">
       <div className="main-symbol-table grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-4 w-full">

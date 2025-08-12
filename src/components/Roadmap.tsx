@@ -21,7 +21,38 @@ export default function Roadmap() {
       <div
         className={`${koulenFont.className} roadmap-background-img pt-[22vh] pb-[20vh] relative`}
       >
-        <div className="main-roadmap-section flex gap-10 w-[80vw] mx-auto">
+        <div className="main-roadmap-section flex gap-10 w-[80vw] mx-auto z-10">
+          <div className="roadmap-phase-a flex flex-col items-center justify-center gap-4 flex-wrap hidden">
+            <Image src={roadmap} alt="roadmap" className="roadmap-write" />
+            <Image src={spokone} alt="spokone" className="spokone"/>
+            <div className="relative step-a build-on-etherem  bg-[#0487AB] border-[4px] border-[#003E58] shadow-[-8px_8px_0_#003e58] rounded p-[13px]">
+              <div className="absolute top-[-20px] left-[8%] img-sec-div p-1 bg-[#FFB3E8] h-[39px] w-[120px] border-[2px] border-[#EF53C0C0] rounded flex justify-center items-center shadow-[-6px_4px_0_#003e58]">
+                {/* <Image src={vector2} alt="img-1"/> */}
+                <p className="pt-[20px]">Phase 5</p>
+              </div>
+              <div className="content-sec">
+                <p className="text-[#D6FF00] text-[24px] pt-[13px] mb-0">
+                  The Infinite Future
+                </p>
+                <span
+                  className={`${NunitoFont.className} text-white text-[13px]`}
+                >
+                  <p>Conquer final stages of the presale</p>
+
+                  <p>Achieve 50,000+ members across socials</p>
+
+                  <p>Claim Layer Bretts spot in the spotlight.</p>
+
+                  <p>
+                    Finalize all preparations for token allocation and ecosystem
+                    launch.
+                  </p>
+                </span>
+              </div>
+            </div>
+          </div>
+
+
           <div className="roadmap-phase-1 flex flex-col items-center justify-center gap-8 flex-wrap">
             <div className="relative step-1 build-on-etherem  bg-[#0487AB] border-[4px] border-[#003E58] shadow-[-8px_8px_0_#003e58] rounded p-[13px]">
               <div className="absolute top-[-20px] left-[8%] img-sec-div p-1 bg-[#FFB3E8] h-[39px] w-[120px] border-[2px] border-[#EF53C0C0] rounded flex justify-center items-center shadow-[-6px_4px_0_#003e58]">
@@ -30,17 +61,21 @@ export default function Roadmap() {
               </div>
               <div className="content-sec">
                 <p className="text-[#D6FF00] text-[24px] pt-[13px] mb-0">
-                  Community Uprising
+                  The Breakthrough
                 </p>
                 <span
                   className={`${NunitoFont.className} text-white text-[13px]`}
                 >
-                  <p> Grow Telegram, Twitter, and other platforms</p>
+                  <p>Conquer final stages of the presale</p>
 
-                  <p>Launch creative and daring marketing initiatives</p>
-                  <p>Appoint passionate community leaders</p>
+                  <p>Achieve 50,000+ members across socials</p>
 
-                  <p>Complete early presale stages.</p>
+                  <p>Claim Layer Bretts spot in the spotlight.</p>
+
+                  <p>
+                    Finalize all preparations for token allocation and ecosystem
+                    launch.
+                  </p>
                 </span>
               </div>
             </div>
@@ -127,38 +162,46 @@ export default function Roadmap() {
               </div>
             </div>
 
-            <div className="relative step-1 build-on-etherem  bg-[#0487AB] border-[4px] border-[#003E58] shadow-[-8px_8px_0_#003e58] rounded p-[13px]">
+             <div className="relative step-1 build-on-etherem  bg-[#0487AB] border-[4px] border-[#003E58] shadow-[-8px_8px_0_#003e58] rounded p-[13px]">
               <div className="absolute top-[-20px] left-[3%] img-sec-div p-1 bg-[#FFB3E8] h-[39px] w-[120px] border-[2px] border-[#EF53C0C0] rounded flex justify-center items-center shadow-[-6px_4px_0_#003e58]">
                 {/* <Image src={vector2} alt="img-1"/> */}
-                <p className="pt-[20px]">Phase 2</p>
+                <p className="pt-[20px]">Phase 4</p>
               </div>
               <div className="content-sec">
                 <p className="text-[#D6FF00] text-[24px] pt-[13px] mb-0">
-                  The Genesis
+                  Brett Unchained
                 </p>
                 <span
                   className={`${NunitoFont.className} text-white text-[13px]`}
                 >
-                  <p>
-                    {" "}
-                    Officially launch $LBRETT and bring the full ecosystem
-                    online.
-                  </p>
+                  <p>Launch the Layer Brett website and socials</p>
+
+                  <p>Begin presale and onboard the early believers.</p>
+
+                  <p>Kickstart marketing campaign.</p>
 
                   <p>
-                    Introduce lbrettscan, governance, and Layer 2 utilities.
-                  </p>
-                  <p>
-                    Partner with developers and projects to expand the Layer
-                    Brett ecosystem.
+                    Finalize all preparations for token allocation and ecosystem
+                    launch.
                   </p>
                 </span>
               </div>
             </div>
+
           </div>
         </div>
-        <Image src={aliean14} alt="aliean14" className="w-[10vw] h-[20vh] absolute bottom-[14vh] left-[13vw] z-0" />
-        <Image src={alien15} alt="aliean14" className="w-[10vw] h-[20vh] absolute bottom-[18vh] right-[13vw] z-0" />
+       <Image
+  src={aliean14}
+  alt="aliean14"
+  className="hidden sm:block w-[10vw] h-[20vh] absolute bottom-[14vh] left-[13vw] z-0"
+/>
+
+<Image
+  src={alien15}
+  alt="alien15"
+  className="hidden sm:block w-[10vw] h-[20vh] absolute bottom-[18vh] right-[13vw] z-0"
+/>
+
       </div>
     </>
   );

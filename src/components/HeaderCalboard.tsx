@@ -47,7 +47,7 @@ export default function HeaderCalboard() {
                 </div>
               </Col>
 
-              <Col sm={12} lg={6} className="">
+              <Col sm={12} lg={6} className="p-0 m-0">
                 <div className="USDT-RAISED ">
                   <span className="text-[20px] text-white">USDT RAISED</span>
                   <input
@@ -62,7 +62,7 @@ export default function HeaderCalboard() {
           {/* pay with eth section */}
           <div className="pay-with-eth-section mt-1 flex justify-between flex-wrap">
             <div className="sub-pay-eth-section h-full">
-              <div className="pay-with-eth  text-[white] flex justify-between items-center mt-2">
+              <div className="pay-with-eth  text-[white] flex justify-between items-center mt-2 flex-wrap" >
                 <span>Pay with eth</span>
                 <span className="ml-[20px] rounded-[3px] bg-[#003e58] text-[white]">
                   <button className=" pt-[2px] pb-[2px] pr-[5px] pl-[5px] ">
@@ -76,7 +76,7 @@ export default function HeaderCalboard() {
                   />
                 </span>
               </div>
-              <div className="pay-with-eth  text-[white] flex justify-between items-center mt-2">
+              <div className="pay-with-eth  text-[white] flex justify-between items-center mt-2 flex-wrap">
                 <span>YOU RECEIVE</span>
 
                 <span>
@@ -154,7 +154,7 @@ LBRETT Balance
        
       </div>
     <Container className="mt-1 mb-0 p-0 ml-[70px]">
-  <div className="flex flex-wrap justify-between items-center gap-4 ml-[10px] mr-[50px]">
+  <div className="flex justify-between items-center gap-4 ml-[10px] mr-[50px]">
     
     {/* First Section */}
     <div className="flex items-center">

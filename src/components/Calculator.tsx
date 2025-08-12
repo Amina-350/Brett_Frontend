@@ -1,12 +1,12 @@
 import React from "react";
 import "./style.css";
-import { Koulen} from "next/font/google";
+import { Koulen } from "next/font/google";
 import Image from "next/image";
 import calculator from "../../public/assets/Calculator.png";
 import ProgressBar from "./ProgressBar";
-import {Container} from "reactstrap";
-import ads6 from '../../public/assets/Ads─▒z_Resim 6.png';
-import alian4 from '../../public/assets/alien4 1.png';
+import { Container } from "reactstrap";
+import ads6 from "../../public/assets/Ads─▒z_Resim 6.png";
+import alian4 from "../../public/assets/alien4 1.png";
 const koulenFont = Koulen({
   subsets: ["latin"],
   weight: "400",
@@ -22,7 +22,7 @@ export default function Calculator() {
           <Image
             src={calculator}
             alt="calculator"
-            className="w-[30vw] h-[20vh] flex mx-auto"
+            className="w-[30vw] h-[20vh] flex mx-auto calc"
           />
           <div
             className={`headercal bg-[#0487ab] pt-4 pl-5 pr-5 pb-4 border-[4px] border-[#003e58] rounded ${koulenFont.className}`}
@@ -120,29 +120,37 @@ export default function Calculator() {
             <Container className="mt-2 mb-0 p-0 ml-[70px]">
               <div className="flex flex-wrap justify-between items-center gap-4 ml-[10px] mr-[50px]">
                 <div className="cal-buttons flex justify-center items-center gap-4">
-                  <div className="img-sec-div bg-[#0487AB] h-[45px] w-[45px] border-[2px] border-[#003E58] rounded flex justify-center items-center shadow-[-6px_4px_0_#003e58]">
-                    <p className="m-0 text-[3vw] text-white">+</p>
+                  <div className="img-sec-div cal-sec bg-[#0487AB] h-[45px] w-[45px] border-[2px] border-[#003E58] rounded flex justify-center items-center shadow-[-6px_4px_0_#003e58]">
+                    <p className="m-0 text-[23px] text-white">+</p>
                   </div>
 
-                  <div className="img-sec-div bg-[#0487AB] h-[45px] w-[45px] border-[2px] border-[#003E58] rounded flex justify-center items-center shadow-[-6px_4px_0_#003e58]">
-                    <p className="m-0 text-[3vw] text-white">-</p>
+                  <div className="img-sec-div cal-sec  bg-[#0487AB] h-[45px] w-[45px] border-[2px] border-[#003E58] rounded flex justify-center items-center shadow-[-6px_4px_0_#003e58]">
+                    <p className="m-0 text-[23px]  text-white">-</p>
                   </div>
-                  <div className="img-sec-div bg-[#0487AB] h-[45px] w-[45px] border-[2px] border-[#003E58] rounded flex justify-center items-center shadow-[-6px_4px_0_#003e58]">
-                    <p className="m-0 text-[3vw] text-white mt-[10px]">*</p>
+                  <div className="img-sec-div cal-sec  bg-[#0487AB] h-[45px] w-[45px] border-[2px] border-[#003E58] rounded flex justify-center items-center shadow-[-6px_4px_0_#003e58]">
+                    <p className="m-0 text-[23px] text-white mt-[10px]">*</p>
                   </div>
-                  <div className="img-sec-div bg-[#0487AB] h-[45px] w-[45px] border-[2px] border-[#003E58] rounded flex justify-center items-center shadow-[-6px_4px_0_#003e58]">
-                    <p className="m-0 text-[3vw] text-white">/</p>
+                  <div className="img-sec-div cal-sec  bg-[#0487AB] h-[45px] w-[45px] border-[2px] border-[#003E58] rounded flex justify-center items-center shadow-[-6px_4px_0_#003e58]">
+                    <p className="m-0 text-[23px]  text-white">/</p>
                   </div>
-                  <div className="img-sec-div bg-[#FFB3E8] h-[45px] w-[45px] border-[2px] border-[#EF53C0C0] rounded flex justify-center items-center shadow-[-6px_4px_0_#003e58] ml-[10vw]">
-                    <p className="m-0 text-[3vw] text-white">=</p>
+                  <div className="img-sec-div cal-sec  bg-[#FFB3E8] h-[45px] w-[45px] border-[2px] border-[#EF53C0C0] rounded flex justify-center items-center shadow-[-6px_4px_0_#003e58] ml-[10vw]">
+                    <p className="m-0 text-[23px]  text-white">=</p>
                   </div>
                 </div>
               </div>
             </Container>
           </div>
         </div>
-        <Image src={ads6} alt="" className="absolute top-[70vh] w-[32vw] h-[70vh] z-0" />
-         <Image src={alian4} alt="alian4" className="absolute top-[70vh] w-[26vw] h-[60vh] left-[70vw] z-0" />
+        <Image
+          src={ads6}
+          alt=""
+          className="absolute top-[70vh] w-[32vw] h-[70vh] z-0 ads6"
+        />
+        <Image
+          src={alian4}
+          alt="alian4"
+          className="absolute top-[70vh] w-[26vw] h-[60vh] left-[70vw] z-0 alian4"
+        />
       </div>
     </>
   );
