@@ -132,8 +132,9 @@ flex-direction: column !important;
 }
     .how-we-buy-text{
         width: 80vw !important;
-        padding-top: 0px !important;
+        /* padding-top: 0px !important; */
         margin-left: 10% !important;
+        margin-top: 5vh !important;
     }
     .main-how-buy{
         display: flex !important;
@@ -433,7 +434,7 @@ width: 50vw;
     display: none !important;
 }
 .main-charateristic{
-    padding-bottom:85vh !important;
+    padding-bottom:84vh !important;
 }
 
 .planet11{
