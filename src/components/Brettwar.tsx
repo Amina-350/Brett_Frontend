@@ -32,7 +32,7 @@ export default function Brettwar() {
           <Image
             src={breetwar}
             alt="Planet 1"
-            className="planet-1 planet-2 h-[40%] w-[20%] ml-[38vw] absolute top-[24vh] z-10 relative"
+            className="planet-1 planet-2 h-[30%] w-[15%] ml-[42vw] absolute top-[34vh] z-10 relative"
           />
           <Image
             src={anima}

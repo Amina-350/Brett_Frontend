@@ -100,17 +100,10 @@ export default function Calculator() {
                   </span>
                   <span>
                     <div className="relative w-[140px]">
-                      {/* Icon */}
-                      {/* <Image
-    src={avatarimg}
-    alt="ETH"
-    className="absolute left-2 top-1/2 -translate-y-1/2 w-5 h-5"
-  /> */}
-
-                      {/* Input */}
+             
                       <input
                         defaultValue={0}
-                        className="bg-[#138DB1] text-white text-[24px] font-normal font-koulen  py-[3px] pl-8 pr-2 rounded-[5px] w-full outline-none placeholder:text-white border-[4px] border-[#003E58] [box-shadow:inset_-5px_3px_0_0_#003E58]"
+                        className="bg-[#138DB1] input-res text-white text-[24px] font-normal font-koulen py-[3px] pl-8 pr-2 rounded-[5px] w-full outline-none placeholder:text-white border-[4px] border-[#003E58] [box-shadow:inset_-5px_3px_0_0_#003E58]"
                       />
                     </div>
                   </span>

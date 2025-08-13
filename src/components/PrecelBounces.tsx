@@ -16,7 +16,7 @@ const koulenFont = Koulen({
 export default function PrecelBounces() {
   return (
     <div
-      className={`${koulenFont.className} main-precel-bounces pt-[10vh] pb-[10vh] relative`}
+      className={`${koulenFont.className} main-precel-bounces main-precel-bounces1 pt-[10vh] pb-[10vh] relative`}
     >
         <Image
           src={precelbounce}

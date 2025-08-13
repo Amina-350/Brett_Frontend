@@ -394,10 +394,17 @@ font-size: 10px !important;
    
 }
 .dancing-img1{
-    margin-left:15% !important;
+    margin-left:25% !important;
+
+}
+.dancing-img{
+height: 50vh;
+width: 50vw;
+
 }
 .aliantounge-container{
     padding-top:2px !important;
+    padding-bottom:2px !important;
 }
 .build-on-etherem-sec{
     margin-top:20px !important;
@@ -415,25 +422,35 @@ font-size: 10px !important;
 }
 .tokenmicsname{
     width: 70vw !important;
+    /* height: 6vh !important; */
     margin-left:15% !important;
+}
+.tokennomiccenter{
+    width: 49vw;
+    height: 50vh;
 }
 .adcartoon{
     display: none !important;
 }
 .main-charateristic{
-    padding-bottom:65vh !important;
+    padding-bottom:85vh !important;
 }
 
 .planet11{
     z-index:0;
 }
 .planet-4{
-    top: 31vh !important;
+    top:-24vh !important;
     height:33vh !important;
 }
 .planate{
-    margin-left: 5vw !important;
-    width: 90vw !important;
+    margin-left: 25vw !important;
+    width: 50vw !important;
+    height:40vh !important;
+}
+.planet-2{
+    top:-10vh !important;
+    height:13vh;
 }
 .transcation-image-sec11{
     z-index: 100 !important;
@@ -448,6 +465,34 @@ font-size: 10px !important;
     font-size: 16px !important;
 }
 .main-lbrett-balanceq{
-    margin-top: 10px !important;
+    padding: 0% !important;
+    margin-top:16px !important;
+    margin-bottom: 5px !important;
+}
+.input-res{
+     margin-top:6px !important;
+}
+.main-precel-bounces1{
+    padding-bottom: 3vh !important;
+    padding-top: 3vh !important;
+}
+.main-brett-war{
+    margin-top:-250px !important;
+}
+.socialalian{
+    width: 25vw !important;
+    height: 25vw !important;
+}
+.logoimg{
+    width:5vw;
+    height: 5vh !important;
+}
+.logoimg1{
+    width: 55vw !important;
+    height: 6vh !important;
+}
+.socialimg{
+    width:25px !important;
+    height:25px !important ;
 }
 }

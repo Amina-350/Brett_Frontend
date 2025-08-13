@@ -37,7 +37,7 @@ export default function TokenNomic() {
       <Image src={alian9} alt="tokenmics1" className='absolute z-0 top-[70vh] left-[6vw] w-[15vw] h-[25vh]'/>
           <Image src={alian10} alt="tokenmics1" className='absolute z-0 top-[7vh] left-[82vw] w-[15vw] h-[25vh]'/>
           <Image src={alian11} alt="tokenmics1" className='absolute z-0 top-[78vh] left-[82vw] w-[15vw] h-[25vh]'/>
-        <Image src={tokennomic} alt="tokennomic" className='w-[60vw] h-[80vh] z-0 absolute left-[18vw] top-[5vh]'/>
+        <Image src={tokennomic} alt="tokennomic" className='w-[60vw] h-[80vh] z-0 absolute left-[18vw] top-[5vh] tokennomiccenter'/>
         <div className="tokenmic-30 flex items-center absolute top-[20px] left-[18vw]">
             <div className="z-10 img-sec-div p-2 bg-[#FFB3E8] h-[50px] w-[80px] border-[2px] border-[#EF53C0C0] rounded flex justify-center items-center shadow-[-6px_4px_0_#003e58] flex ">
                 <Image src={imgthirthy} alt="img-1" className='h-[4vh] w-[3vw]'/>
@@ -131,7 +131,8 @@ export default function TokenNomic() {
     </div>
 {/* symbol table */}
 <div
-  className={`${koulenFont.className} symbol-board symbol-board1 z-20 bg-[#0487ab] pt-4 pl-5 pr-5 pb-2 border-[4px] border-[#003e58] rounded w-[55vw] mx-auto`}>
+  className={`${koulenFont.className} symbol-board symbol-board1 relative z-[9999] bg-[#0487ab] pt-4 pl-5 pr-5 pb-2 border-[4px] border-[#003e58] rounded w-[55vw] mx-auto`}
+>
   <div className="subheadercal bg-[#003e58] rounded pt-3 pb-2 pl-1 pr-3">
     <div className="bg-[#376c8a] pt-[6px] pl-[20px] pr-[20px] pb-[6px]">
       <div className="main-symbol-table grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-4 w-full">

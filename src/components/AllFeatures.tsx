@@ -26,7 +26,7 @@ export default function AllFeatures() {
         <Row className='relative z-1'>
             <Col md={4} sm={12} className='aliantounge hidden'>
       <div className="dancing-img dancing-img1">
-        <Image src={dancing4} alt="img-1" className='h-[70vh] w-[70vw]'/>
+        <Image src={dancing4} alt="img-1" className='dancing-img h-[70vh] w-[70vw]'/>
       </div>
         </Col>
 

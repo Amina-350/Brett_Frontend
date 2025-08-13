@@ -107,20 +107,20 @@ export default function Faqs() {
           ))}
         </div>
       </div>
-      <Image src={social} alt="social" className="absolute top-[80vh] z-0 w-[40vw] h-[70vh]" />
+      <Image src={social} alt="social" className="socialalian absolute top-[80vh] z-0 w-[40vw] h-[70vh]" />
    <div className="last-images-section w-[60vw] flex flex-col sm:flex-row justify-center items-center gap-4 mx-auto mt-4 pb-8">
   
   {/* First two images */}
   <div className="flex gap-4 justify-center items-center">
-    <Image src={calc} alt="calc" className="w-[5vw] h-[10vh]" />
-    <Image src={layerbreet} alt="layerbreet" className="h-[10vh]" />
+    <Image src={calc} alt="calc" className="logoimg w-[5vw] h-[10vh]" />
+    <Image src={layerbreet} alt="layerbreet" className=" logoimg1 h-[10vh]" />
   </div>
 
   {/* Remaining three images */}
   <div className="flex gap-4 justify-center items-center">
-    <Image src={vector5} alt="vector5" className="h-[10vh]" />
-    <Image src={vector6} alt="vector6" className="h-[10vh]" />
-    <Image src={vector7} alt="vector7" className="h-[10vh]" />
+    <Image src={vector5} alt="vector5" className="socialimg h-[10vh]" />
+    <Image src={vector6} alt="vector6" className="socialimg h-[10vh]" />
+    <Image src={vector7} alt="vector7" className="socialimg h-[10vh]" />
   </div>
 
   {/* This last one remains hidden on small screens */}
